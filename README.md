@@ -1,5 +1,6 @@
 # k3s-on-lxd
-K3S on LXD  [wip - dont use]
+
+K3S on LXD 
 
 ## Pre-Requirements
 
