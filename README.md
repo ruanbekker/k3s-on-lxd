@@ -1,5 +1,5 @@
 # k3s-on-lxd
-K3S on LXD  [wip]
+K3S on LXD  [wip - dont use]
 
 ## Usage
 
