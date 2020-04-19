@@ -1,5 +1,14 @@
 #!/bin/bash
 
+command -v lxd &> /dev/null && EXIT_CODE=${?} || EXIT_CODE=${?}
+
+if [ ${EXIT_CODE} == 1 ] 
+  then
+    echo "LXD is not installed"
+    echo "go to: https://linuxcontainers.org/lxd/getting-started-cli/"
+    exit 1;
+fi
+
 LXC_PROFILE="k3s"
 LXC_CONTAINER_MEMORY="2GB"
 LXC_CONTAINER_CPU="2"
